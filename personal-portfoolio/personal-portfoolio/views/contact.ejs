@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/style.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>My Portfolio</title>
+<body>
+    <!-- Navigation Bar -->
+    <nav  navbar navbar-default>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <img class="navbar-brand" src="logo.jpg" alt="RvTech_Logo" width="50" height="50" >
+          <a class="navbar-brand" href="#">Rv Tech</a>
+        </div>
+  
+        <ul  class="nav navbar-nav navbar-right">
+              <li><a class="active" href="/Home"> Home</a></li>
+              <li><a  href="/about"> About me</a></li>
+              <li><a href="/projects"> projects</a></li>
+              <li><a href="/services"> services</a></li>
+              <li><a href="/contact"> contact</a></li>
+        </ul>
+      </div>
+  </nav>
+  
+  <!--This is a contact form-->
+  <div class="container2">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row2">
+      <div class="column2">
+        <img src="/maps.jpg" style="width:100%">
+      </div>
+      <div class="column2">
+        <form action="/Home">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="canada">Philippines</option>
+            <option value="canada">Mexico</option>
+            <option value="canada">India</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Tell me more.." style="height:170px"></textarea>
+          <input type="submit" value="Submit" onclick="getData()">
+        </form>
+        <a href="https://www.facebook.com/roy.velasco.585" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      </div>
+    </div>
+  </div>
+  
+ 
+</body>
+</head>
+
